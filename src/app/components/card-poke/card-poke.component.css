@@ -42,3 +42,6 @@
         text-transform: capitalize;
     }
 }
+.card-img-top {
+    padding: 3rem;
+}

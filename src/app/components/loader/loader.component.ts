@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
-import { RouterModule } from '@angular/router';
+
 
 @Component({
   selector: 'app-loader',
   standalone: true,
-  imports: [RouterModule],
+  imports: [],
   templateUrl: './loader.component.html',
   styleUrl: './loader.component.css'
 })
 export class LoaderComponent {
-  public title: string = 'No Pokemon found.';
+  
 };
